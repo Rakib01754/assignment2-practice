@@ -20,7 +20,7 @@ body {
 .hero-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #161616;
+    background-color: #08c557;
     color: white;
     margin-top: 50px;
     border-radius: 10px;
@@ -35,17 +35,23 @@ body {
 }
 
 .hero-text button {
-    background-color: red;
-    padding: 10px 20px;
+    background-color: rgb(6, 126, 173);
+    padding: 20px 30px;
     margin: 30px 0px;
     border: none;
     border-radius: 5px;
+    box-shadow: inset 0 0 0 #5ce632;
+    transition: box-shadow .8s ease-in-out;
 
 }
 
 .hero-text button a {
     text-decoration: none;
     color: white;
+}
+
+.hero-text button:hover {
+    box-shadow: inset 140px 0 0 0 #5ce632;
 }
 
 .hero-img img {
@@ -63,8 +69,8 @@ body {
 
 /* Featured Navbar Part Start  */
 .navbar {
-    background-color: #161616;
-    width: 20%;
+    background-color: #08c557;
+    width: 250px;
     height: 250px;
     display: flex;
     justify-content: center;
@@ -84,12 +90,11 @@ body {
 
 
 .navbar .selected {
-    background-color: red;
-    color: white;
+    background-color: rgb(6, 126, 173);
 }
 
 .navbar .selected a {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .navbar li a {
@@ -111,7 +116,7 @@ body {
 }
 
 .blog {
-    border: 1px solid rgb(185, 183, 183);
+    border: 1px solid #84e4ac;
     border-radius: 10px;
 
 }
@@ -154,7 +159,7 @@ body {
 
 .match {
     padding: 50px 30px;
-    border: 1px solid rgb(185, 183, 183);
+    border: 1px solid #84e4ac;
     border-radius: 10px;
     text-align: center;
 }
@@ -194,9 +199,10 @@ body {
     text-align: center;
     margin: 30px;
     padding: 15px 30px;
-    background-color: red;
-    color: white;
+    background-color: rgb(6, 126, 173);
+    color: rgb(243, 235, 247);
     font-weight: 700;
+    border-radius: 10px;
 }
 
 /* Button For Tablet Only  */
@@ -205,17 +211,17 @@ body {
 
 /* ---------------Footer Part Start--------------  */
 footer {
-    background-color: #161616;
+    background-color: #08c557;
 }
 
 .footer-content {
-    color: white;
+    color: rgb(139, 13, 212);
     text-align: center;
     padding: 5%;
 }
 
 .footer-content hr {
-    opacity: 0.1;
+    opacity: 0.6;
     margin: 50px auto;
 }
 
@@ -233,8 +239,18 @@ footer {
 .footer-nav a {
     text-decoration: none;
     font-weight: 500;
-    color: #B9B9B9;
+    color: black;
     font-size: 16px;
+}
+
+.social-icons {
+    display: none;
+    margin: 40px;
+}
+
+.social-icons a {
+    font-size: 40px;
+    margin: 20px
 }
 
 /* --------Footer Part End----------  */

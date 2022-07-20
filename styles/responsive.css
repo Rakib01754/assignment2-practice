@@ -50,6 +50,10 @@
         display: block;
         margin: 15px;
     }
+
+    .social-icons {
+        display: block;
+    }
 }
 
 /* ------Tablet Devices----------  */

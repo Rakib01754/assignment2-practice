@@ -1,0 +1,178 @@
+/* Common Css Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Common Css End */
+
+/* Header Part Css Start */
+.hero-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #161616;
+    color: white;
+}
+
+.hero-text {
+    padding: 20%;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+}
+
+.hero-text button {
+    background-color: red;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.hero-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-img img {
+    width: 60%;
+
+}
+
+/* Header Part Css End */
+/* Featured Area Css Start */
+.featured-area {
+    display: flex;
+    margin: 100px auto;
+}
+
+.navbar {
+    background-color: #161616;
+    width: 20%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navbar li {
+    list-style-type: none;
+    background-color: white;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.navbar .selected {
+    background-color: red;
+}
+
+.navbar .selected a {
+    color: white
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+#blogs {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.blog {
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 5px;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog-desc {
+    padding: 15px;
+}
+
+.blog button {
+    display: block;
+    padding: 5px 10px;
+}
+
+.blog-feed {
+    display: flex;
+}
+
+.duration {
+    margin-right: 20px;
+}
+
+.button {
+    display: none;
+}
+
+.button a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+
+/* Featured Area Css End */
+
+/* --------Footer Part Start----------  */
+footer {
+    background-color: #161616;
+}
+
+.footer-content {
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.footer-content hr {
+    opacity: 0.1;
+    margin: 50px auto;
+}
+
+.footer-content h2 {
+    font-size: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.footer-nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+
+/* --------Footer Part Start----------  */

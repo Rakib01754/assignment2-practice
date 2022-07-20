@@ -79,8 +79,17 @@ body {
     background-color: white;
     text-align: center;
     margin: 30px 0px;
-
     border-radius: 10px;
+}
+
+
+.navbar .selected {
+    background-color: red;
+    color: white;
+}
+
+.navbar .selected a {
+    color: white;
 }
 
 .navbar li a {
@@ -89,16 +98,6 @@ body {
     display: block;
     padding: 10px 20px;
 }
-
-
-.navbar .selected {
-    background-color: red;
-}
-
-.navbar .selected a {
-    color: white
-}
-
 
 /* Featured Navbar Part End  */
 
@@ -160,9 +159,6 @@ body {
     text-align: center;
 }
 
-.match-desc {
-    margin-top: 20px;
-}
 
 .flags {
     display: flex;
@@ -171,8 +167,17 @@ body {
 
 }
 
+.flags img {
+    width: 60%;
+}
+
 .flags span {
+    padding: 0 2%;
     font-weight: 700;
+}
+
+.match-desc {
+    margin-top: 20px;
 }
 
 /* Featured Matches Part End  */
@@ -187,6 +192,7 @@ body {
     display: inline-block;
     text-decoration: none;
     text-align: center;
+    margin: 30px;
     padding: 15px 30px;
     background-color: red;
     color: white;

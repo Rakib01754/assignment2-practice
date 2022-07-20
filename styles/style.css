@@ -1,4 +1,4 @@
-/* Common Css Start */
+/* ---------Common Css Start------------ */
 * {
     margin: 0;
     padding: 0;
@@ -10,13 +10,13 @@ body {
 }
 
 .container {
-    width: 90%;
-    margin: 0 auto;
+    max-width: 1320px;
+    margin: 0 50px;
 }
 
-/* Common Css End */
+/* -----------Common Css End------------ */
 
-/* Header Part Css Start */
+/* -----------Header Part Css Start----------- */
 .hero-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -53,14 +53,15 @@ body {
 
 }
 
-/* Header Part Css End */
+/*----------------- Header Part Css End--------------- */
 
-/* Featured Area Css Start */
+/* ---------Featured Area Css Start----------- */
 .featured-area {
     display: flex;
     margin: 100px auto;
 }
 
+/* Featured Navbar Part Start  */
 .navbar {
     background-color: #161616;
     width: 20%;
@@ -95,6 +96,10 @@ body {
     color: black;
 }
 
+/* Featured Navbar Part End  */
+
+/* Featured Blogs Part Start  */
+
 #blogs {
     width: 80%;
     display: grid;
@@ -126,12 +131,17 @@ body {
 
 .blog-feed {
     display: flex;
+    margin-top: 10px;
+
 }
 
 .duration {
     margin-right: 20px;
 }
 
+/* Featured Blogs Part Start  */
+
+/* Button For Tablet Only  */
 .button {
     display: none;
 }
@@ -146,9 +156,11 @@ body {
     font-weight: 700;
 }
 
-/* Featured Area Css End */
+/* Button For Tablet Only  */
 
-/* --------Footer Part Start----------  */
+/* ------------Featured Area Css End----------- */
+
+/* ---------------Footer Part Start--------------  */
 footer {
     background-color: #161616;
 }
@@ -178,8 +190,8 @@ footer {
 .footer-nav a {
     text-decoration: none;
     font-weight: 500;
-    color: white;
+    color: #B9B9B9;
     font-size: 16px;
 }
 
-/* --------Footer Part Start----------  */
+/* --------Footer Part End----------  */

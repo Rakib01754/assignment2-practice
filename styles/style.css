@@ -109,7 +109,7 @@ body {
 /* Featured Blogs Part Start  */
 
 #blogs {
-    width: 80%;
+    flex-grow: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
@@ -151,7 +151,7 @@ body {
 
 /* Featured Matches Part Start  */
 #matches {
-    width: 80%;
+    flex-grow: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;

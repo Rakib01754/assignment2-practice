@@ -79,9 +79,17 @@ body {
     background-color: white;
     text-align: center;
     margin: 30px 0px;
-    padding: 10px 20px;
+
     border-radius: 10px;
 }
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 20px;
+}
+
 
 .navbar .selected {
     background-color: red;
@@ -91,10 +99,6 @@ body {
     color: white
 }
 
-.navbar li a {
-    text-decoration: none;
-    color: black;
-}
 
 /* Featured Navbar Part End  */
 
@@ -140,6 +144,39 @@ body {
 }
 
 /* Featured Blogs Part Start  */
+
+/* Featured Matches Part Start  */
+#matches {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.match {
+    padding: 50px 30px;
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.match-desc {
+    margin-top: 20px;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.flags span {
+    font-weight: 700;
+}
+
+/* Featured Matches Part End  */
+
 
 /* Button For Tablet Only  */
 .button {
